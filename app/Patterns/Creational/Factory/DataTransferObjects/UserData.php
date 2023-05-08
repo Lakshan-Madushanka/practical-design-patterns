@@ -15,13 +15,10 @@ class UserData implements Data
 
     /**
      * Responsible for create the UserData object from request
-     *
-     * @return Data
      */
 
     /**
-     * @param  array{id: int, name: string, email: string} $data
-     * @return Data
+     * @param  array{id: int, name: string, email: string}  $data
      */
     public static function fromArray(array $data): Data
     {
