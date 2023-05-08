@@ -35,5 +35,5 @@ Some knowledge of design patterns would be helpful.
 
 ### Behavioral
 
-* **[Strategy]()**
-  * [Validator]()
+* **[Strategy](https://github.com/Lakshan-Madushanka/practical-design-patterns/tree/main/app/Patterns/Behavioral/Strategy)**
+  * [Validator](https://github.com/Lakshan-Madushanka/practical-design-patterns/tree/main/app/Patterns/Behavioral/Strategy/Validator)
