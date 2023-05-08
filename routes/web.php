@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 use App\Http\Controllers\Patterns\Behavioral\StrategyPatternController;
+use App\Http\Controllers\Patterns\Creational\FactoryPatternController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,3 +20,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', fn () => view('welcome'));
 
 Route::get('behavioral/strategy/validator', [StrategyPatternController::class, 'validator']);
+
+Route::get(
+    'behavioral/creational/data-transfer-objects',
+    [FactoryPatternController::class, 'dataTransferObjects']
+);
