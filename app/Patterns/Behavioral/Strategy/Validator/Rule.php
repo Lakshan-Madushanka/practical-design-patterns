@@ -11,5 +11,6 @@ abstract class Rule
     }
 
     abstract public function validate(): bool;
+
     abstract public function getErrorMessage(): string;
 }

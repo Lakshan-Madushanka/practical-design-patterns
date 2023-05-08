@@ -13,6 +13,6 @@ class EmailRule extends Rule
 
     public function getErrorMessage(): string
     {
-        return "Invalid valid email address";
+        return 'Invalid valid email address';
     }
 }
