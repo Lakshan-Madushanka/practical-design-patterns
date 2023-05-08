@@ -37,3 +37,9 @@ Some knowledge of design patterns would be helpful.
 
 * **[Strategy](https://github.com/Lakshan-Madushanka/practical-design-patterns/tree/main/app/Patterns/Behavioral/Strategy)**
   * [Validator](https://github.com/Lakshan-Madushanka/practical-design-patterns/tree/main/app/Patterns/Behavioral/Strategy/Validator)
+  
+  
+### Creational
+
+* **[Factory](https://github.com/Lakshan-Madushanka/practical-design-patterns/tree/main/app/Patterns/Creational/Factory)**
+  * [DataTransferObjects](https://github.com/Lakshan-Madushanka/practical-design-patterns/tree/main/app/Patterns/Creational/Factory/DataTransferObjects)  
