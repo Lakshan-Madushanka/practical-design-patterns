@@ -19,23 +19,23 @@ class StrategyPatternController extends Controller
             [
                 'value' => [],
                 'name' => 'field1',
-                'rules' => ['required']
+                'rules' => ['required'],
             ],
             [
                 'value' => 'test',
                 'name' => 'field2',
-                'rules' => ['required']
+                'rules' => ['required'],
             ],
             [
                 'value' => 'email',
                 'name' => 'field3',
-                'rules' => ['required', 'email']
+                'rules' => ['required', 'email'],
             ],
             [
                 'value' => '',
                 'name' => 'field4',
-                'rules' => ['required', 'email']
-            ]
+                'rules' => ['required', 'email'],
+            ],
         ];
 
         $validator = new Validator($payload);

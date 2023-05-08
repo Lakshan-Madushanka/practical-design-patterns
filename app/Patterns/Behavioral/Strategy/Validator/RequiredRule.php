@@ -8,7 +8,7 @@ class RequiredRule extends Rule
 {
     public function validate(): bool
     {
-        return $this->value !== "" && ! (is_array($this->value) && count($this->value) === 0);
+        return $this->value !== '' && ! (is_array($this->value) && count($this->value) === 0);
     }
 
     public function getErrorMessage(): string

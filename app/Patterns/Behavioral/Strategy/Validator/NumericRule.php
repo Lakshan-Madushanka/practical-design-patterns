@@ -13,6 +13,6 @@ class NumericRule extends Rule
 
     public function getErrorMessage(): string
     {
-        return "Invalid numeric";
+        return 'Invalid numeric';
     }
 }

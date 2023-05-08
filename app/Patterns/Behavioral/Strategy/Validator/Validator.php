@@ -15,16 +15,16 @@ class Validator
     private array $errors = [];
 
     /**
-     * @param array<int, array{name: string, value: mixed, rules: string[]}> $data
+     * @param  array<int, array{name: string, value: mixed, rules: string[]}>  $data
      */
     public function __construct(private array $data)
     {
     }
 
     /**
-     * @throws Exception
-     *
      * @return array<string, string[]>
+     *
+     * @throws Exception
      */
     public function validate(): array
     {
